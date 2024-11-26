@@ -13,7 +13,8 @@ for(let i = 0; i < 5; i++ ){
   numerirandom.push(Math.floor(Math.random((max - min) + min)* 50))
 }
 
-document.getElementById('selezrndm').innerHTML = numerirandom;
+console.log(numerirandom.toString())
+document.getElementById('selezrndm').innerHTML = numerirandom.toString();
 
 const timer = setInterval(function(){
   counter--;
@@ -22,7 +23,8 @@ const timer = setInterval(function(){
 
   if(counter == 0){
     clearInterval(timer)
-    document.querySelector('.schedanum').classList.remove('d-none')
+    
+    document.querySelector('.insnumeri').classList.remove('d-none')
     document.querySelector('.btn').classList.remove('d-none')
     document.getElementById('selezrndm').classList.add('d-none')
   }
@@ -34,7 +36,9 @@ const timer = setInterval(function(){
 
 
 
-console.log(numerirandom);
+
+
+;
 
 
 

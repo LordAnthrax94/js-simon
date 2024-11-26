@@ -10,9 +10,20 @@
   justify-content: center;
 }
 
+.col-12{ 
+  justify-content: center;
+}
 
 #display{
-  align-self: center;
+  font-size: 2rem;
+  font-weight: bold;
 }
+
+#selezrndm{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
 
 
