@@ -1,0 +1,11 @@
+.insnumeri{
+  justify-content: space-between;
+}
+
+.insnumeri input{
+  width: 60px;
+}
+
+.btn{
+  justify-content: center;
+}
