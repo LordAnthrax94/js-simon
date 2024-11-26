@@ -63,12 +63,11 @@ numform.addEventListener('submit', (event) => {
 })
 
 function confirm(confirm1, confirm2){
-  let indovinati = confirm(x, numvalidati)  
+  console.log(confirm1, confirm2);  
 }
 
-
-
-
+let messaggio = document.getElementById('messaggio');
+ 
 
 
 
