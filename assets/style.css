@@ -9,3 +9,8 @@
 .btn{
   justify-content: center;
 }
+
+.d-hide{
+  display: none;
+}
+
