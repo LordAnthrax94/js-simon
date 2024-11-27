@@ -58,16 +58,20 @@ numform.addEventListener('submit', (event) => {
 
     let x = numvalidati.length   
     
-    confirm(x, numvalidati)
+    confirm(x, numvalidati)    
    
 })
 
 function confirm(confirm1, confirm2){
-  console.log(confirm1, confirm2);  
+  console.log(confirm1, confirm2);
+
+let messaggio = document.getElementById('messaggio');  
+
 }
 
-let messaggio = document.getElementById('messaggio');
+
  
+
 
 
 
