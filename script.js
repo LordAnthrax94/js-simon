@@ -62,12 +62,16 @@ numform.addEventListener('submit', (event) => {
     
     let numconfirm = confirm(x, numvalidati);
 
-  //   numUtente = []
+     numUtente = []
 
-  //  if(!isNaN(numinseriti) && numinseriti >= max && numinseriti <= min && !numUtente.includes(numinseriti)){
-  //   numUtente.push(numinseriti)
-  // }
-  // console.log(numUtente);
+  //    for(let i = 0; i < numinseriti.lenght; i++){
+  //     if(!isNaN(numinseriti[i]) && numinseriti[i] >= max && numinseriti[i] <= min && !numUtente.includes(numinseriti[i])){
+  //       numUtente.push(numinseriti[i])
+  //    }
+     
+  
+  //  }
+  //  console.log(numUtente);
 })
 
 function confirm(confirm1, confirm2){
